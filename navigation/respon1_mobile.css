@@ -1,0 +1,16 @@
+header > div {width: 100%;}
+header h1 a {width: 4.55rem; height: 3rem; background-size: 3.05rem auto;}
+header nav {position: fixed; right: -100%; top: 0; padding: 3rem 2.5rem; width: 12.5rem; bottom: 0; z-index: 50; background: #fff; box-sizing: border-box; transition: right .5s;}
+header nav.on {right: 0;}
+header nav > ul {display: block;}
+header nav > ul ul {display: block;}
+header nav .close {display: block; position: absolute; right: 8.8rem; top: 1.25rem; width: 1.2rem; height: 1.2rem; background: url(images/btn_close.png);}
+header nav > ul > li > a {padding: 0; line-height: 3.7rem; font-size: .9rem; color: #757575; transition: all .4s;}
+header nav > ul > li > a:focus,
+header nav > ul > li:hover > a {color: #000; font-weight: bold;}
+header nav > ul > li > ul {margin-top: -0.5rem;}
+header nav > ul > li > ul a {display: block; line-height: 1.3rem; font-size: .7rem; color: #999; transition: all .4s;}
+header nav > ul > li > ul a:focus,
+header nav > ul > li > ul a:hover {color: #ff4325;}
+header .btn_nav {width: 3rem; height: 3rem; background-size: 1rem auto;}
+main {line-height: calc(100vh - 3rem);}

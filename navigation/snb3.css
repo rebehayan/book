@@ -1,0 +1,20 @@
+body:after {content: ""; position: fixed; left: 0; top: 0; right: 0; height: 50px; background: #e96e0b;}
+header {position: fixed; left: 0; top: 0; bottom: 0; width: 180px; background: #1b3b86; text-align: center;}
+header h1 {padding: 125px 0 49px;}
+header nav > ul > li > a {display: block; text-align: center; font-size: 15px; color: #aecbff; line-height: 55px; transition: all .3s;}
+header nav > ul > li:hover > a {color: #fff; font-size: 18px;}
+header nav .sub {display: none; position: absolute; left: 180px; top: 0; padding: 0 40px 0; width: 780px; height: 100vh; background: rgba(27,59,134,.85); box-sizing: border-box; text-align: left;}
+header nav .on .sub {display: block;}
+header nav .sub > ul {position: absolute; width: calc(100% - 80px); display: flex; flex-wrap: wrap;}
+header nav .sub > ul > li {width: 25%; padding: 33px 0;}
+header nav .sub > ul > li:nth-child(5n):before {content: ""; position: absolute; left: 0; right: 0; border-top: 1px dashed #697dad; transform: translateY(-33px);}
+header nav .sub > ul > li a {padding: 0 0 0 15px;}
+header nav .sub > ul > li > a {color: #aecbff; background: url(images/bu_arrow_right.png) no-repeat left center;}
+header nav .sub > ul > li > ul {padding: 9px 0 0;}
+header nav .sub > ul > li > ul a {display: block; color: #fff; line-height: 30px;}
+header .util {position: absolute; left: 0; right: 0; bottom: 87px;}
+header .util a {display: block; font-size: 13px; color: #aecbff; line-height: 40px;}
+header .util button {width: 40px; height: 40px; background: url(images/ico_search.png) no-repeat center; cursor: pointer;}
+main {display: block; background: #7f7f7f; text-align: center; line-height: 100vh; font-size: 100px; color: #fff; font-weight: bold;}
+.ie9 header nav .sub > ul:after {content: ""; display: block; clear: both;}
+.ie9 header nav .sub > ul > li {float: left;}

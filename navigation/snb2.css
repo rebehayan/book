@@ -1,0 +1,11 @@
+.snb {width: 240px;}
+.snb h2 {font-size: 23px; color: #000; line-height: 60px;}
+.snb nav > ul {border-top: 1px solid #ddd;}
+.snb nav > ul > li {border-bottom: 1px solid #ddd;}
+.snb nav > ul > li > a {display: block; padding: 0 0 0 20px; line-height: 56px; font-size: 17px; color: #000; transition: background-color .5s;}
+.snb nav > ul > li > ul {display: none; padding: 15px 0 13px; border-top: 1px solid #ddd; background: #f3f2f3;}
+.snb nav > ul > li > ul a {display: block; position: relative; padding: 0 0 0 34px; line-height: 31px; font-size: 13px; color: #000;}
+.snb nav > ul > li > ul a:before {content: ""; display: inline-block; margin: 0 2px 0 0; width: 4px; height: 1px; background: #000; vertical-align: 5px;}
+.snb nav > ul > li.on > a {background-color: #ab0021; color: #fff;}
+.snb nav > ul > li.on > a.dep {background: url(images/ico_arrow_up.png) no-repeat right 17px center #ab0021;}
+.snb nav > ul > li > a.dep {background: url(images/ico_arrow_down.png) no-repeat right 17px center;}

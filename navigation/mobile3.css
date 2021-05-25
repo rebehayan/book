@@ -1,0 +1,32 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+header {position: relative; background: #111;}
+header h1 {display: flex; height: 1.66rem;}
+header h1 a {display: block; margin: auto; width: 1.8rem; height: .833rem; background: url(images/h1_logo6.png) no-repeat center / 100% auto;}
+header > button {position: absolute; top: 0; width: 1.66rem; height: 1.66rem;}
+header .menu {left: 0; background: url(images/btn_nav.png) no-repeat center / auto .5rem;}
+header .alram {right: 0; background: url(images/ico_alram.png) no-repeat center / auto .8rem;}
+header nav {display: none; position: fixed; left: 0; top: 0; bottom: 0; z-index: 101; width: 60%; background: #fff;}
+header nav .top {display: flex; justify-content: space-between; align-items: flex-start; padding: .61rem .583rem 0; height: 3.133rem; box-sizing: border-box; background: #f5f5f5;}
+header .btn_login {width: 3.15rem; line-height: 1.26rem; text-align: center; border-radius: 1.26rem; border: 1px solid #797979; background: #fff;}
+header .btn_setting {font-size: .51rem; color: #000;}
+header .btn_setting:before {content: ""; display: block; margin: 0 auto .3rem; width: .7rem; height: .58rem; background: url(images/ico_setting.png) no-repeat center / auto 100%;}
+header .lnb {padding: .616rem 0 0; line-height: 1.916rem;}
+header .lnb a {display: block; padding: 0 0 0 1.15rem; font-size: .583rem; color: #000;}
+header .lnb a:before {content: ""; display: inline-block; margin: 0 1.16rem 0 0; width: .75rem; height: .75rem; background: no-repeat center / contain; vertical-align: middle;}
+header .lnb .ico1 a:before {background-image: url(images/ico_nav1.png);}
+header .lnb .ico2 a:before {background-image: url(images/ico_nav2.png);}
+header .lnb .ico3 a:before {background-image: url(images/ico_nav3.png);}
+header .lnb .ico4 a:before {background-image: url(images/ico_nav4.png);}
+header .lnb .ico5 a:before {background-image: url(images/ico_nav5.png);}
+header .lnb .ico6 a:before {background-image: url(images/ico_nav6.png);}
+header .lnb .ico7 a:before {background-image: url(images/ico_nav7.png);}
+header .lnb .ico8 a:before {background-image: url(images/ico_nav8.png);}
+header .lnb .ico9 a:before {background-image: url(images/ico_nav9.png);}
+.dim {display: none; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 100; background: rgba(0,0,0,.5);}
+
+.ie10 header nav .top {display: block;}
+.ie10 header nav .top:after {content: ""; display: block; clear: both;}
+.ie10 header nav .top a:first-child {float: left;}
+.ie10 header nav .top a:last-child {float: right;}

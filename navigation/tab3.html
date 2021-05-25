@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2 뎁스로 구성된 탭 메뉴</title>
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="tab3.css">
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/tab3.js" charset="utf-8"></script>
+</head>
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+  <main>
+    <h2 class="h2">필요서류안내 <span>보험업무 처리 시 필요한 서류 안내입니다.</span></h2>
+    <div class="tab_group">
+      <nav class="tab">
+        <ul class="tab_nav">
+          <li class="on">
+            <button>보험금청구서류</button>
+            <ul class="tab_nav">
+              <li class="on"><button>질병관련사고</button></li>
+              <li><button>상해/운행관련사고</button></li>
+              <li><button>화재/특정관련사고</button></li>
+              <li><button>자동차사고</button></li>
+            </ul>
+          </li>
+          <li><button>계약변경서류</button></li>
+          <li>
+            <button>자동차등록검사서류</button>
+            <ul class="tab_nav">
+              <li><button>메뉴3-1</button></li>
+              <li><button>메뉴3-2</button></li>
+              <li><button>메뉴3-3</button></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="tab_content on">
+        <div class="on">contents1-1</div>
+        <div>contents1-2</div>
+        <div>contents1-3</div>
+        <div>contents1-4</div>
+      </div>
+      <div class="tab_content">contents2</div>
+      <div class="tab_content">
+        <div class="on">contents3-1</div>
+        <div>contents3-2</div>
+        <div>contents3-3</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

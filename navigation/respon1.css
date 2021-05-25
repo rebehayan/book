@@ -1,0 +1,12 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+header > div {display: flex; justify-content: space-between; margin: 0 auto; width: 62rem;}
+header h1 a {display: block; width: 5rem; height: 4rem; background: url(images/h1_logo7.png) no-repeat center}
+header nav > ul {display: flex;}
+header nav > ul > li > a {display: block; padding: 0 .95rem; line-height: 4rem; font-size: .8rem; color: #111;}
+header nav > ul ul {display: none;}
+header nav .close {display: none;}
+header .btn_nav {width: 4rem; height: 4rem; background: url(images/btn_nav2.png) no-repeat center;}
+main {display: block; background: #d5d5d5; text-align: center; line-height: 30rem; font-size: 2rem; color: #000; font-weight: bold;}
+.dim {display: none; position: fixed; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,0,0,.8);}

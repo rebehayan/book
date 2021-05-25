@@ -1,0 +1,22 @@
+header {width: 1474px; margin: 0 auto;}
+header h1 {float: left; padding: 28px 0 0;}
+header h1 a {display: block; width: 99px; height: 45px; background: url(images/h1_logo.png) no-repeat;}
+header .right {float: right;}
+header nav {float: left;}
+header nav > ul > li {float: left;}
+header nav > ul > li > a {display: block; position: relative; padding: 36px 12.5px 0; font-size: 18px; color: #000; font-weight: bold; line-height: 28px; transition: color .3s .1s;}
+header nav > ul > li > a:before {content: ""; position: absolute; left: 0; right: 0; top: 0; z-index: -1; height: 0; background: #65767d; transition: height .3s;}
+header nav > ul > li:hover > a {color: #fff;}
+header nav > ul > li:hover > a:before {height: 100%;}
+header nav > ul > li > ul {display: none; position: absolute; padding: 21px 0; min-width: 126px; background: #65767d;}
+header nav > ul > li > ul a {display: block; padding: 0 18px; font-size: 15px; color: #b2bbbe; line-height: 27px; transition: color .3s;}
+header nav > ul > li > ul a:focus,
+header nav > ul > li > ul a:hover {color: #fff;}
+header .util {float: left; padding: 36px 0 0; font-size: 0;}
+header .util a,
+header .util button {display: inline-block; position: relative; padding: 0 22px; height: 28px; line-height: 28px; font-size: 14px;}
+header .util a:after,
+header .util button:after {content: ""; position: absolute; left: 0; top: 0; width: 1px; height: 32px; background: #bfbfbf;}
+header .util .lang {font-size: 16px; color: #000;}
+header .util .lang:before {content: url(images/ico_lang.png); display: inline-block; margin: 0 8px 0 0; transform: translateY(3px);}
+header .util button {width: 68px; height: 32px; background: url(images/ico_menu.png) no-repeat center;}

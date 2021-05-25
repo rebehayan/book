@@ -1,0 +1,14 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+header .top {background: #5f0080; position: relative;}
+header .top h1 {display: flex; height: 2.16rem;}
+header .top h1 a {margin: auto; width: 2.7rem; height: 1.26rem; background: url(images/h1_logo4.png) no-repeat 0 0 / 100% auto;}
+header .top .cart {position: absolute; right: 0; top: 0; width: 3.26rem; height: 100%; background: url(images/ico_cart.png) no-repeat center / 1.06rem auto;}
+header nav ul {display: flex; justify-content: space-around; border-bottom: 1px solid #c0bfbe;}
+header nav ul li span {display: inline-block; position: relative; padding: 0 .333rem; line-height: 2.08rem;}
+header nav ul li.on span {font-weight: bold; color: #5f0080;}
+header nav ul li.on span:after {content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: .166rem; background: #5f0080;}
+header nav ul a {display: block; font-size: .75rem; color: #5e5e5e; text-align: center;}
+
+main {display: block; background: #ebebeb; font-size: 1.66rem; color: #000; text-align: center; line-height: 10rem;}

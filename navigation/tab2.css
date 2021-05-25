@@ -1,0 +1,30 @@
+main {display: block; width: 1198px; margin: 149px auto 0;}
+.h2 {font-size: 25px; color: #333;}
+.txt_both {display: flex; justify-content: space-between;}
+.breadcrumb {display: flex;}
+.breadcrumb li a {font-size: 13px; color: #555;}
+.breadcrumb li:first-child a {display: inline-block; width: 13px; height: 12px; background: url(images/ico_home2.png) no-repeat center; vertical-align: -2px;}
+.breadcrumb li:last-child a {color: #496fc1;}
+.breadcrumb li ~ li:before {content: ""; display: inline-block; width: 19px; height: 12px; background: url(images/bu_arrow_right2.png) no-repeat center; vertical-align: -3px;}
+
+.tab {padding: 33px 0 70px;}
+.tab ul {display: flex; height: 47px; border-bottom: 1px solid #496fc1;}
+.tab ul li {flex: 1; position: relative; margin: 0 0 0 -1px; border: 1px solid #d7d7d7;}
+.tab ul li button {width: 100%; height: 46px; background: #f9f9f9;}
+.tab ul li.on {z-index: 2; height: 46px; border-color: #496fc1; border-bottom: 1px solid #fff;}
+.tab ul li.on button {background: #fff;}
+.tab_content {display: none; line-height: 261px; background: #e5e5e5; text-align: center; font-size: 40px; color: #000;}
+.tab_content.on {display: block;}
+
+.ie9 .txt_both:after,
+.ie9 .tab ul:after,
+.ie9 .breadcrumb:after {content: ""; display: block; clear: both;}
+.ie9 .txt_both > *:first-child {float: left;}
+.ie9 .txt_both > *:last-child {float: right;}
+.ie9 .breadcrumb li {float: left;}
+.ie9 .tab ul li {float: left; width: 33.33%; height: 47px; box-sizing: border-box; border-bottom: none;}
+.ie9 .tab ul li.on button {height: 47px; border-bottom: 1px solid #fff;}
+.ie9 .tab ul.no2 li {width: 50%;}
+.ie9 .tab ul.no3 li {width: 33.33%;}
+.ie9 .tab ul.no4 li {width: 25%;}
+.ie9 .tab ul.no5 li {width: 20%;}

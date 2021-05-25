@@ -1,0 +1,16 @@
+header {margin: 0 auto 30px; width: 1240px; height: 100px; background: tomato; text-align: center; line-height: 100px; color: #fff; font-size: 30px;}
+main {display: block; margin: 30px auto; width: 1240px; line-height: 500px; background: skyblue; color: #fff; text-align: center; font-size: 30px;}
+.location {border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+.location nav {margin: 0 auto; width: 1240px;}
+.location nav > ul {display: flex;}
+.location nav > ul > li {border-left: 1px solid #eee;}
+.location nav > ul > li:first-child a {display: block; width: 46px; height: 46px; background: url(images/ico_home.png) no-repeat center;}
+.location nav > ul > li:last-child {border-right: 1px solid #eee;}
+.location nav > ul > li button {padding: 0 41px 0 17px; height: 46px; background: url(images/bu_arrow_down.png) no-repeat right 24px center; cursor: pointer;}
+.location nav > ul > li button.on {color: #ec018c;}
+.location nav > ul > li ul {display: none; position: absolute; min-width: 150px; padding: 5px; background: #fff; border: 1px solid #eee; border-radius: 4px; transform: translateY(2px);}
+.location nav > ul > li ul a {display: block; padding: 0 15px; border-radius: 4px; line-height: 40px;}
+.location nav > ul > li ul a:focus,
+.location nav > ul > li ul a:hover {background: #eee;}
+.ie9 .location nav > ul:after {content: ""; display: block; clear: both;}
+.ie9 .location nav > ul > li {float: left;}

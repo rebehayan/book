@@ -1,0 +1,25 @@
+main {display: block; width: 960px; margin: 134px auto 0;}
+.h2 {font-size: 27px; color: #1a1a1a;}
+.h2 span {font-size: 14px; color: #767676; font-weight: normal;}
+.tab {padding: 47px 0 70px;}
+.tab > ul {display: flex; position: relative; height: 50px; border-bottom: 1px solid #464748;}
+.tab > ul > li {margin: 0 0 0 -1px;}
+.tab > ul > li > button {width: 240px; height: 50px; border: 1px solid #c2c4c6; border-bottom: none; border-radius: 8px 8px 0 0; background: none; font-size: 16px; color: #767676;}
+.tab > ul > li.on {z-index: 2;}
+.tab > ul > li ul {display: none; position: absolute; left: 0; right: 0; border-bottom: 1px solid #e2e2e2;}
+.tab > ul > li ul li {padding: 0 15px;}
+.tab > ul > li ul button {position: relative; height: 50px; background: none; font-size: 15px; color: #767676;}
+.tab > ul > li ul .on button {color: #157941;}
+.tab > ul > li ul .on button:after {content: ""; position: absolute; left: 0; right: 0; bottom: 12px; border-top: 1px solid #157941;}
+.tab > ul > li.on ul {display: flex;}
+.tab > ul > li.on > button {position: relative; height: 51px; border-color: #464748; border-bottom: 1px solid #fff; font-weight: bold; color: #252525;}
+.tab_content {display: none; line-height: 261px; background: #e5e5e5; text-align: center; font-size: 40px; color: #000;}
+.tab_content.on {display: block;}
+.tab_content.on > .on {display: block;}
+.tab_content.on > div {display: none; font-size: 40px; color: #000;}
+
+.ie9 .tab > ul:after,
+.ie9 .tab > ul > li.on ul:after {content: ""; display: block; clear: both;}
+.ie9 .tab > ul > li,
+.ie9 .tab > ul > li.on ul li {float: left;}
+.ie9 .tab > ul > li.on ul {display: block;}

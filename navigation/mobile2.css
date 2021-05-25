@@ -1,0 +1,24 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+header {position: fixed; left: 0; right: 0; bottom: 0;}
+header ul {display: flex; justify-content: space-around; align-items: flex-end; height: 2.5rem;}
+header ul li:nth-child(3):after {content: ""; position: absolute; left: 50%; bottom: 0; z-index: 29; width: 2.85rem; height: 1.83rem; background: #fff; transform: translateX(-50%);}
+header nav {position: relative;}
+header nav:before,
+header nav:after {content: ""; position: absolute; bottom: 0; width: calc(50% - 1.35rem); height: 100%; border-top: 1px solid #e2e2e2;}
+header nav:before {left: 0; border-right: 1px solid #e2e2e2; border-radius: 0 .83rem 0 0;}
+header nav:after {right: 0; border-left: 1px solid #e2e2e2; border-radius: .83rem 0 0 0;}
+header nav li a {display: flex; flex-direction: column; justify-content: center; width: 2.5rem; height: 2.5rem; font-size: .55rem; color: #717171; text-align: center;}
+header nav li a:before {content: ""; display: block; width: 100%; height: 1.05rem; background: no-repeat center / auto 100%;}
+header nav li:nth-child(1) a:before {background-image: url(images/ico_dock1.png);}
+header nav li:nth-child(2) a:before {background-image: url(images/ico_dock2.png);}
+header nav li:nth-child(4) a:before {background-image: url(images/ico_dock3.png);}
+header nav li:nth-child(5) a:before {background-image: url(images/ico_dock4.png);}
+header nav li.on a {color: #282828; font-weight: bold;}
+header nav li.on:nth-child(1) a:before {background-image: url(images/ico_dock1_on.png);}
+header nav li.on:nth-child(2) a:before {background-image: url(images/ico_dock2_on.png);}
+header nav li.on:nth-child(4) a:before {background-image: url(images/ico_dock3_on.png);}
+header nav li.on:nth-child(5) a:before {background-image: url(images/ico_dock4_on.png);}
+header nav li:nth-child(3) a {display: block; position: relative; z-index: 30; top: -0.2rem; margin: 0 auto; width: 2.85rem; height: 2.85rem; line-height: 2.85rem; text-align: center; border: 2px solid #959595; border-radius: 100%; background: #fff; font-size: .8rem;}
+header nav li:nth-child(3) a:before {display: none;}

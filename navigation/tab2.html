@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>아래 테두리가 없는 탭 메뉴</title>
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="tab2.css">
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/tab1.js" charset="utf-8"></script>
+</head>
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+  <main>
+    <div class="txt_both">
+      <h2 class="h2">다운로드</h2>
+      <h3 class="hide">현재 위치 안내</h3>
+      <ul class="breadcrumb">
+        <li><a href=""><span class="hide">홈</span></a></li>
+        <li><a href="">고객지원</a></li>
+        <li><a href="">다운로드</a></li>
+      </ul>
+    </div>
+    <div class="tab_group">
+      <nav class="tab">
+        <ul>
+          <li class="on"><button>윈도우용 접속기</button></li>
+          <li><button>맥용 접속기</button></li>
+          <li><button>모바일앱</button></li>
+        </ul>
+      </nav>
+      <div class="tab_content on">contents1</div>
+      <div class="tab_content">contents2</div>
+      <div class="tab_content">contents3</div>
+    </div>
+  </main>
+</body>
+</html>

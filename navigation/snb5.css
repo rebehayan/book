@@ -1,0 +1,15 @@
+header,
+.visual,
+.contents {font-size: 70px; text-align: center; font-weight: bold; color: #000;}
+header {border-bottom: 1px solid #ddd; line-height: 100px;}
+.visual {background: #e9ebed; line-height: 280px;}
+.contents {margin: 0 auto; width: 980px; line-height: 70vh; background: #e9ebed;}
+
+.snb {position: relative; width: 1290px; margin: -40px auto 74px; box-shadow: 0 7px 19px 4px rgba(0,0,0,.2); background: #fff;}
+.snb ul {padding: 0 142px;}
+.snb li {float: left; padding: 0 60px 0 0;}
+.snb a {display: block; position: relative; line-height: 90px; font-size: 24px;}
+.snb a:after {content: ""; position: absolute; right: 0; top: 50%; transform: translate(-50%, -50%) scale(0); width: 60px; height: 60px; border-radius: 100%; background: #84d7e3; opacity: 0; transition: all .3s;}
+.snb a span {position: relative; z-index: 3;}
+.snb a.on:after,
+.snb a:hover:after {transform: translate(0, -50%) scale(1); opacity: 1;}

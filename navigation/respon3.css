@@ -1,0 +1,42 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+header {position: absolute; left: 0; right: 0; top: 2.3rem;}
+header > div {position: relative; margin: 0 auto; padding: 0 2.05rem; width: 52rem;}
+header h1 {position: absolute; left: 50%; top: 0; transform: translateX(-50%);}
+header h1 a {display: block; width: 4.2rem; height: 2.05rem; background: url(images/h1_logo9.png) no-repeat center;}
+header nav ul {display: flex;}
+header nav li {flex: 1;}
+header nav a {display: block; line-height: 2.05rem; font-size: .9rem; color: #333; text-align: center; font-weight: bold;}
+header .btn_nav,
+header .btn_login {position: absolute; top: 0; width: 2.05rem; height: 2.05rem; line-height: 1; text-align: center;}
+header .btn_login {left: 0; font-size: .6rem; color: #333;}
+header .btn_nav {right: 0; background: url(images/btn_nav4.png) no-repeat center;}
+header .btn_login:before {content: ""; display: block; margin: 0 auto; width: 1.35rem; height: 1.35rem; background: url(images/ico_login.png) no-repeat center;}
+.total_nav {display: none; position: absolute; left: 0; right: 0; top: 0; z-index: 101; padding: 2.25rem 0 0; background: #fff;}
+.total_nav .logo {margin: 0 auto .7rem; width: 4.2rem; height: 2.05rem; background: url(images/h1_logo9.png) no-repeat center;}
+.total_nav .close {position: absolute; right: 0; top: -3.5rem; width: 2.05rem; height: 2.05rem; background: url(images/btn_close2.png) no-repeat center;}
+.total_nav > div {padding: .75rem 0; border-top: 1px solid #ebebeb;}
+.total_nav .txt_login {display: none;}
+.total_nav nav {position: relative; margin: 0 auto; width: 53.85rem;}
+.total_nav nav > ul {display: flex;}
+.total_nav nav > ul > li {flex: 1;}
+.total_nav nav > ul > li ~ li {border-left: 1px solid #ebebeb;}
+.total_nav nav > ul > li > a {display: block; text-align: center; font-size: .85rem; color: #333; line-height: 1.2rem;}
+.total_nav nav > ul > li > a:before {content: ""; display: inline-block; margin: 0 .5rem 0 0; width: 1.2rem; height: 1.2rem; background: no-repeat center; vertical-align: -0.25rem;}
+.total_nav nav > ul > li.gnb1 > a:before {background-image: url(images/ico_nav10.png)}
+.total_nav nav > ul > li.gnb2 > a:before {background-image: url(images/ico_nav11.png)}
+.total_nav nav > ul > li.gnb3 > a:before {background-image: url(images/ico_nav12.png)}
+.total_nav nav > ul > li.gnb4 > a:before {background-image: url(images/ico_nav13.png)}
+.total_nav nav > ul > li.gnb5 > a:before {background-image: url(images/ico_nav14.png)}
+.total_nav nav > ul > li ul {padding: .65rem 0 0;}
+.total_nav nav > ul > li ul a {display: block; text-align: center; font-size: .8rem; color: #a2a2a2; line-height: 2.2rem; font-weight: normal;}
+.total_nav nav > ul > li ul a span {position: relative; padding: 0 .2rem;}
+.total_nav nav > ul > li ul a span em {position: relative; z-index: 2;}
+.total_nav nav > ul > li ul a span:after {content: ""; position: absolute; left: 0; width: 0; bottom: -1px; border-bottom: .4rem solid #e5e5e5; z-index: 1; transition: width .5s;}
+.total_nav nav > ul > li ul a:focus span:after,
+.total_nav nav > ul > li ul a:hover span:after {width: 100%;}
+main {display: block; background: #e5e5e5; line-height: 100vh; text-align: center; font-size: 2.5rem; color: #000; font-weight: bold;}
+.total_nav a[target="_blank"]:after {content: ""; display: inline-block; margin: -0.2rem 0 0; width: .5rem; height: 1rem; background: url(images/ico_blank.png) no-repeat right 0;}
+.dim {display: none; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 100; background: rgba(19,105,114,.5);}
+body.hidden {overflow: hidden;}

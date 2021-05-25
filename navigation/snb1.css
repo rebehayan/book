@@ -1,0 +1,13 @@
+.snb {width: 235px;}
+.snb h2 {background: url(images/bg_snb.png) no-repeat; text-align: center; line-height: 142px; font-size: 27px; color: #fff; font-weight: normal;}
+.snb nav {background: #fff;}
+.snb li {border-top: 1px solid #e2e2e2;}
+.snb li a {display: block; position: relative; padding: 0 0 0 26px; line-height: 59px; font-size: 17px; color: #706f6f; transition: color .5s;}
+.snb li a:after {content: ""; position: absolute; right: 15px; top: 50%; width: 10px; height: 2px; background: #e42929; opacity: 0; transition: .4s;}
+.snb li a.on,
+.snb li a:hover,
+.snb li a:focus {color: #e42929;}
+.snb li a.on:after,
+.snb li a:hover:after,
+.snb li a:focus:after {right: 25px; opacity: 1;}
+body {padding: 50px; background: #e2e2e2;}

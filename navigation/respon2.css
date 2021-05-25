@@ -1,0 +1,29 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+header {position: absolute; left: 0; right: 0; top: 0; padding: 6.6rem 0 0;}
+header h1 {position: absolute; left: 1.35rem; top: 1.75rem;}
+header h1 a {display: block; width: 6.65rem; height: 3.1rem; background: url(images/h1_logo8.png) no-repeat center;}
+header nav {position: relative;}
+header nav ul {display: flex; justify-content: center;}
+header nav ul li a {display: block; padding: 0 4.4rem; line-height: 3.4rem; font-size: .8rem; color: #fff; font-weight: bold;}
+header nav button {position: absolute; right: 0; top: 0; width: 3.4rem; height: 3.4rem; background: url(images/btn_nav3.png) no-repeat center;}
+header .search {position: absolute; left: 50%; top: 1.95rem; transform: translateX(-50%); font-size: 0;}
+header .search input {width: 15.7rem; height: 2.2rem; background: none; border: none; border-bottom: 2px solid #fff; font-size: .8rem; color: #fff; text-indent: .4rem;}
+header .search ::placeholder {font-size: .8rem; color: #fff;}
+header .search :-ms-input-placeholder {font-size: .8rem; color: #fff;}
+header .search button {width: 2.2rem; height: 2.2rem; background: url(images/btn_search2.png) no-repeat center; border-bottom: 2px solid #fff;}
+header .util {display: flex; align-items: center; position: absolute; right: .6rem; top: 1.95rem;}
+header .util .select {position: relative;}
+header .util .select button {padding: 0 .65rem; min-width: 3.2rem; height: 1.6rem; border: 1px solid #bdbdbd; border-radius: 3.2rem; background: url(images/bu_arrow_down2.png) no-repeat right .85rem center; font-size: .8rem; color: #fff; text-align: left;}
+header .util .select ul {display: none; position: absolute; left: 0; right: 0; top: 1.8rem;}
+header .util .select ul li {margin: -1px 0 0;}
+header .util .select ul li:first-child a {border-radius: .5rem .5rem 0 0;}
+header .util .select ul li:last-child a {border-radius: 0 0 .5rem .5rem;}
+header .util .select ul a {display: block; padding: .4rem; border: 1px solid #bdbdbd; color: #fff; line-height: 1rem;}
+header .util .btn_search {display: none; width: 1.6rem; height: 1.6rem; background: url(images/btn_search2.png) no-repeat center / .9rem auto;}
+header .util .my,
+header .util .cart {display: inline-block; margin: 0 0 0 .4rem; width: 2.2rem; height: 2.2rem; background: no-repeat center;}
+header .util .my {background-image: url(images/ico_member2.png);}
+header .util .cart {position: relative; background-image: url(images/ico_cart2.png);}
+header .util .cart .num {position: absolute; right: -0.15rem; top: 0; width: 1rem; background: #e9463f; border-radius: 100%; text-align: center; line-height: 1rem; font-size: .6rem; color: #fff;}
+main {display: block; background: #7f7f7f; line-height: 100vh; text-align: center; font-size: 2.5rem; color: #fff; font-weight: bold;}

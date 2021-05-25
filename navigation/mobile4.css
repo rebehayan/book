@@ -1,0 +1,14 @@
+html {font-size: 20px;}
+body {font-size: 1rem;}
+
+main {padding: 2rem .716rem;}
+.h2 {padding: 0 0 .816rem; font-size: .833rem; color: #000; line-height: 1;}
+.md_recom {display: block; border-top: 1px solid #f6f6f6; border-bottom: 1px solid #f6f6f6;}
+.md_recom:before,
+.md_recom:after {content: ""; position: absolute; top: 0; bottom: 0; z-index: 10; width: 1.666rem;}
+.md_recom:before {left: 0; background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));}
+.md_recom:after {right: 0; background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));}
+.md_recom a {display: block; text-align: center; font-size: .65rem; color: #666; line-height: 2.016rem; transition: color .5s;}
+.md_recom a:focus,
+.md_recom .swiper-slide-active a {color: #5d007e; font-weight: bold;}
+.box {margin: .966rem 0 0; background: #e5e5e5; line-height: 10rem; text-align: center; text-transform: uppercase;}

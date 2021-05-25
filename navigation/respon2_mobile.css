@@ -1,0 +1,26 @@
+header {padding: 2.8rem 0 0;}
+header h1 {left: .85rem; top: 0;}
+header h1 a {width: 3.75rem; height: 2.8rem; background-size: 100% auto;}
+header nav {padding: 0 2.85rem 0 0; border-top: 1px solid #fff;}
+header nav ul {justify-content: space-between;}
+header nav ul li a {padding: 0; line-height: 2.85rem; font-size: .7rem;}
+header nav button {width: 2.85rem; height: 2.85rem; background-size: 1.15rem auto;}
+header .search {display: none; justify-content: center; align-items: center; left: 0; right: 0; top: 5.7rem; height: 5rem; background: #fff; transform: translateX(0);}
+header .search.on {display: flex;}
+header .search input {border-bottom: 2px solid #000; font-size: .75rem; color: #898989;}
+header .search ::-webkit-input-placeholder {font-size: .75rem; color: #898989;}
+header .search button {background-image: url(images/btn_search3.png); border-color: #000;}
+header .util {right: .7rem; top: 0; height: 2.8rem;}
+header .util .select ul {background: #7f7f7f; border-radius: .5rem;}
+header .util .btn_search {display: inline-block;}
+header .util .my,
+header .util .cart {margin: 0; width: 1.6rem; height: 1.6rem;}
+header .util .my {background-size: .8rem auto;}
+header .util .cart {background-size: 1rem auto;}
+
+@media (min-width:0) and (max-width:450px){
+  header nav {padding: 0 1.7rem 0 0;}
+  header nav ul li a {font-size: .5rem; line-height: 1.5rem}
+  header nav button {width: 1.5rem; height: 1.5rem; background-size: 1rem auto;}
+  header .search {top: 4.5rem;}
+}

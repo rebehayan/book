@@ -1,0 +1,27 @@
+body {overflow-x: hidden;}
+header {top: 1.9rem;}
+header > div {padding: 0 .7rem; width: 100%; box-sizing: border-box;}
+header nav {display: none;}
+.total_nav {overflow: auto; left: inherit; right: -100%; bottom: 0; padding: 2.9rem 0 0; width: 15.95rem;}
+.total_nav.on {display: block;}
+.total_nav .logo {display: none;}
+.total_nav > div {padding: 0; border-top: none;}
+.total_nav .txt_login {display: inline-block; font-size: .9rem; color: #333; line-height: 3.05rem; text-indent: 1.45rem;}
+.total_nav .txt_login span {color: #01b4d0;}
+.total_nav .txt_login:before {content: url(images/ico_login.png); margin: 0 .85rem 0 0;}
+.total_nav .close {right: .4rem; top: .7rem;}
+.total_nav nav {position: static; width: 100%;}
+.total_nav nav > ul {display: block; border-top: 1px solid #ebebeb;}
+.total_nav nav > ul > li {border-bottom: 1px solid #ebebeb;}
+.total_nav nav > ul > li ~ li {border-left: none;}
+.total_nav nav > ul > li > a {position: relative; text-align: left; line-height: 3.1rem;}
+.total_nav nav > ul > li > a:before {margin: 0 .5rem 0 1.5rem;}
+.total_nav nav > ul > li > a:after {content: url(images/ico_arrow_down2.png); position: absolute; right: 1.1rem; top: 50%; transform: translateY(-50%) rotate(180deg); font-size: 0; line-height: 1; transition: transform .4s;}
+.total_nav nav > ul > li.on > a:after {transform: translateY(-50%) rotate(0deg);}
+.total_nav nav > ul > li > div {display: none;}
+.total_nav nav > ul > li ul {display: flex; flex-wrap: wrap; padding: 1.15rem 0; border-top: 1px solid #ebebeb; background: #f7f8f9;}
+.total_nav nav > ul > li ul li {width: 50%;}
+.total_nav nav > ul > li ul a {padding: .7rem 0 .7rem 1.15rem; line-height: 1.3; text-align: left; font-size: .7rem;}
+.total_nav nav > ul > li ul a span {padding: 0;}
+.total_nav nav > ul > li ul a span:after {display: none;}
+body.hidden {overflow: hidden;}

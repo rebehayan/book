@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>테두리가 있는 탭 메뉴</title>
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="tab1.css">
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/tab1.js" charset="utf-8"></script>
+</head>
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+  <main>
+    <h2>진행 중인 이벤트</h2>
+    <div class="tab_group">
+      <nav class="tab">
+        <ul>
+          <li class="on"><button>진행 중인 이벤트</button></li>
+          <li><button>지난 이벤트</button></li>
+          <li><button>당첨자 발표</button></li>
+        </ul>
+      </nav>
+      <div class="tab_content on">contents1</div>
+      <div class="tab_content">contents2</div>
+      <div class="tab_content">contents3</div>
+    </div>
+  </main>
+</body>
+</html>
